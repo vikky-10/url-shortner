@@ -6,7 +6,7 @@ This is a url shortening service built using MongoDB, Express.js, Node.js and Bo
 
 ```javascript
 1. Clone the repo
-2. cd url-shortener
+2. cd url-shortner
 3. npm install
 4. make a .env file with the following keys: MONGOURI 
 5. npm start or nodemon server.js
@@ -43,4 +43,10 @@ This is a url shortening service built using MongoDB, Express.js, Node.js and Bo
 #### Contributiong
 
 Feel free to fork this repo and raise an issue or submit a PR in case of any bugs.
+
+
+___
+
+## Authors
+[Vikky Singh](https://github.com/vikky-10)
 

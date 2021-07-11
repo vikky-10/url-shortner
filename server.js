@@ -11,7 +11,7 @@ const dotenv = require("dotenv");
 const shortid = require("shortid");
 const app = express();
 
- 
+dotenv.config({ path: "config.env" });
 // Database Connect
 connectDB();
 

@@ -1,0 +1,21 @@
+<section class="results">
+  <% if (locals.short_url) { %>
+
+  <div class="result">
+    <div class="result-main">
+      <div class="links">
+        <a class="shorted-link" href=" <%= short_url %>" target="_blank"
+          ><%= short_url %></a
+        >
+      </div>
+      <div class="copyb">
+        <button id="srink" class="btn copy-btn">Copy</button>
+
+        <button class="share" id="share">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <% } %>
+</section>

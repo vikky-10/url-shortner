@@ -1,0 +1,38 @@
+ 
+  #tip {
+    display: none;
+  }
+  #tip.show {
+    display: block;
+  }
+  .share{
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    outline: none;
+    
+    -webkit-appearance: none;
+    display: inline-block;
+    text-align: center;
+    /* position: relative;
+ 
+    padding: 20px 38px; */
+    top: 0;
+    font-size: 3rem;
+    
+   background: #fff;
+     border-radius: 45px;
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2px;
+    padding-right: 2px;
+ position:  relative;
+ top: 7px;
+ left: 5px;
+    
+  }
+ .share i{
+     color: #FF7472;
+ }
